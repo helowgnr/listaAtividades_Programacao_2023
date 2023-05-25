@@ -12,12 +12,26 @@
     */
 
     //ENTRADA
+    const periodo = prompt(`Em que turno você estuda? Responda com M, V ou N (Matutino, Vespertino ou Noturno)`).trim().toLowerCase();
 
-    
+
     //PROCESSAMENTO
+    if (periodo == "m") {
+        alert(`Bom dia!`)
+    }
+    else if (periodo == "v") {
+        alert(`Boa tarde!`)
+    }
+    else if (periodo == "n") {
+        alert(`Boa noite!`)
+    }
+    else {
+        alert(`Resposta inválida. Responda com M, V ou N.`)
+    }
 
-    
+
+
     //SAÍDA
-    
+
 
 </script>
